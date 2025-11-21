@@ -1,0 +1,47 @@
+:root {
+    --clr-neutral-100: rgb(255, 255, 255);
+    --clr-neutral-300: rgb(214, 199, 199);
+    --clr-neutral-700: rgb(53, 49, 49);
+
+    --clr-primary-300: rgb(221, 173, 173);
+    --clr-primary-400: rgb(184, 140, 140);
+
+    --clr-secondary-300: rgb(174, 200, 206);
+    --clr-secondary-400: rgb(159, 185, 191);
+    --clr-secondary-700: rgb(89, 115, 121);
+
+    --fs-200: 12px;
+    --fs-300: 14px;
+    --fs-400: 16px;
+    --fs-900: 40px;
+
+    --pad-s: 16px;
+    --pad-m: 24px;
+    --pad-l: 32px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    height: 50px;
+    align-items: center;
+    background-color: var(--clr-secondary-300);
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--clr-secondary-700);
+
+}
+
+.navbar a:hover{
+    background-color: var(--clr-neutral-100);
+    border-radius: 8px;
+    color: var(--clr-secondary-300);
+    
+    
+   
+}

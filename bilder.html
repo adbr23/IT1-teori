@@ -5,18 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bilder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bilder-style.css">
 </head>
 
 <body>
-    <h1>Bilder består av bildepunkter</h1>
+    <nav>
+        <div class="navbar">
+            <p><a href="index.html">Index</a></p>
+            <p><a href="#">Binære tall</a></p>
+            <p><a href="bilder.html">Bilder</a></p>
+            <p><a href="#">Tegnsett</a></p>
+            <p><a href="#">Digitalisering av lyd</a></p>
+            <p><a href="#">Datamaskin komponenter</a></p>
+        </div>
+    </nav>
 
-    <h2>Bildepunkter (piksler)</h2>
-    <p>Et digitalt bilde er bygget opp av mange små ruter som kalles bildepunkter, eller piksler. Hver piksel har sin
-        egen farge, og når mange piksler står tett sammen, oppfatter øyet det som et sammenhengende bilde. Jo flere
-        piksler et bilde har, jo høyere oppløsning får det, og dermed blir bildet skarpere og mer detaljert. Har bildet
-        få piksler, blir det mer kornete og uklart når du zoomer inn.</p>
-
-    <h2>Lagring og minne</h2>
+    <main>
+        <h1 class="bilde-title">Bilder</h1>
+        <section>
+            <h2>Bildepunkter (piksler)</h2>
+            <p>Et digitalt bilde er bygget opp av mange små ruter som kalles bildepunkter, eller piksler. Hver piksel
+                har sin
+                egen farge, og når mange piksler står tett sammen, oppfatter øyet det som et sammenhengende bilde. Jo
+                flere
+                piksler et bilde har, jo høyere oppløsning får det, og dermed blir bildet skarpere og mer detaljert. Har
+                bildet
+                få piksler, blir det mer kornete og uklart når du zoomer inn.
+            </p>
+            <h2>Farger</h2>
+            <p>
+                I digitale bilder blir farger laget ved hjelp av RGB-modellen, som står for Red (rød), Green (grønn) og
+                Blue
+                (blå). Hver piksel i et bilde består av en blanding av disse tre grunnfargene. Ved å variere hvor sterke
+                de tre
+                fargene er, kan datamaskinen skape millioner av ulike farger.
+                Når alle tre fargene har full styrke, får vi hvitt lys, og når alle er satt til null, får vi svart.
+                Kombinasjonene mellom disse gir alle nyanser vi ser på skjermen. Skjermer bruker RGB fordi de lager lys,
+                mens
+                farger på papir fungerer annerledes.
+                Digitale bilder lagrer fargeinformasjon som tall, ofte mellom 0 og 255 for hver av de tre fargene. Dette
+                gjør at
+                datamaskinen nøyaktig kan beskrive fargen til hver enkelt piksel. Fargesystemet er viktig for at bilder
+                skal se
+                riktige ut på ulike skjermer og enheter.
+            </p>
+            <h2>Komprimering</h2>
+            <p>Komprimering brukes for å gjøre bildefiler mindre slik at de tar mindre plass og blir raskere å sende.
+                Det finnes
+                to hovedtyper: destruktiv og tapsfri komprimering.
+                Destruktiv komprimering betyr at noe av bildeinformasjonen blir fjernet for å redusere filstørrelsen.
+                Når data
+                fjernes, kan bildet miste litt skarphet eller detaljer hvis man zoomer inn. JPEG er et vanlig
+                bildeformat som
+                bruker destruktiv komprimering, og det passer godt til fotografier hvor litt tap av detaljer ikke merkes
+                så mye.
+                Tapsfri komprimering beholder all informasjonen i bildet, slik at det kan gjenopprettes helt nøyaktig
+                når du
+                åpner det igjen. Denne typen komprimering finner mønstre i bildet og lagrer dem mer kompakt, uten å
+                fjerne noe.
+                PNG er et vanlig tapsfritt format, og det brukes ofte til grafikk, logoer, skjermbilder og bilder som
+                trenger
+                skarpe kanter eller gjennomsiktighet. Selv om filene ofte blir større, er tapsfri komprimering viktig
+                når
+                kvalitet må bevares fullt ut.
+                Komprimering er viktig fordi vi må balansere mellom bildekvalitet og filstørrelse, avhengig av hva
+                bildet skal
+                brukes til.
+            </p>
+        </section>
+    </main>
 </body>
 
 </html>
