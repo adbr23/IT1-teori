@@ -45,3 +45,27 @@
     padding: var(--pad-xs);
     transition: 500ms;
 }
+
+.bilde-title {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: -20px;
+    color: var(--clr-secondary-700);
+    font-size: var(--fs-900);
+}
+
+.bilde-section h2 {
+    margin-bottom: 15px;
+}
+
+.bilde-section {
+    padding: var(--pad-m);
+    line-height: 1.5;
+}
+
+.bilde-info {
+    background-color: var(--clr-secondary-300);
+    border-radius: 15px;
+    padding: var(--pad-s);
+    margin-top: 40px;
+}
