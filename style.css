@@ -1,0 +1,68 @@
+:root {
+    --clr-neutral-100: hsl(0, 0, 100%);
+    --clr-neutral-300: rgb(214,199,199);
+    --clr-neutral-700: rgb(53, 49, 49);
+
+    --clr-primary-300: rgb(221, 173, 173);
+    --clr-primary-400: rgb(184, 140, 140);
+
+    --clr-secondary-300: rgb(174,200,206);
+    --clr-secondary-400: rgb(159,185,191);
+
+    --fs-200: 12px;
+    --fs-300: 14px;
+    --fs-400: 16px;
+    --fs-900: 40px;
+
+    --pad-s: 16px;
+    --pad-m: 24px;
+    --pad-l: 32px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.pensum-title {
+    text-align: center;
+    padding: var(--pad-m);
+    background-color: var(--clr-primary-300);
+    color: var(--clr-primary-400);
+    text-transform: uppercase;
+    font-size: var(--fs-900);
+}
+
+.pensum-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: var(--pad-l);
+    background-color: var(--clr-primary-300);
+    margin: 50px 30px;
+}
+
+.info-group{
+    padding: var(--pad-s);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-primary-400);
+  
+}
+
+
+.info-group img{
+    max-width: 250px;
+}
+
+
+
+
+
