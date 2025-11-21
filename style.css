@@ -1,5 +1,5 @@
 :root {
-    --clr-neutral-100: hsl(0, 0, 100%);
+    --clr-neutral-100: rgb(255, 255, 255);
     --clr-neutral-300: rgb(214, 199, 199);
     --clr-neutral-700: rgb(53, 49, 49);
 
@@ -15,6 +15,7 @@
     --fs-400: 16px;
     --fs-900: 40px;
 
+    --pad-xs: 6px;
     --pad-s: 16px;
     --pad-m: 24px;
     --pad-l: 32px;
